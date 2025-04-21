@@ -137,6 +137,7 @@ export const status: Record<StatusType, string> = {
   pending: "before:bg-[#808080]",
 };
 
+// @ts-ignore
 const gender: Record<GenderType, string> = {
   feminino: "before:bg-[url(/female.svg)]",
   masculino: "before:bg-[url(/male.svg)]",
